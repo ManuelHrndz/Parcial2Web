@@ -1,0 +1,30 @@
+.info-servicios {
+    max-width: 800px; 
+    margin: auto; 
+    text-align: center; 
+    padding: 20px; 
+}
+
+.info-servicios h3 {
+    margin-bottom: 20px; 
+    text-transform: uppercase; 
+}
+
+.info-servicios p {
+    line-height: 30px; 
+}
+
+.info-servicios table {
+    margin: 20px auto; 
+    border-collapse: collapse; 
+}
+
+.info-servicios td {
+    padding: 10px; 
+    border: 1px solid #dde1e9; 
+}
+
+.imagen-perfil {
+    max-width: 100%; 
+    height: auto; 
+}

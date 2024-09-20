@@ -5,7 +5,7 @@ body{
     }
 
 
-/* Importar fuente Barlow */
+
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
 
 * {
@@ -59,7 +59,6 @@ body {
     color: #ff1133;
 }
 
-/* Estilos para los enlaces de redes sociales en el encabezado */
 .contenedor-header header .redes a {
     text-decoration: none;
     color: #fff;
@@ -67,12 +66,10 @@ body {
     padding: 5px 8px;
 }
 
-/* Efecto hover en los enlaces de redes sociales */
 .contenedor-header header .redes a:hover {
     color: #ff1133;
 }
 
-/* Estilos para el ícono de menú responsive */
 .nav-responsive {
     display: none;
     font-size: 25px;
@@ -91,13 +88,11 @@ body {
     position: relative;
 }
 
-/* Contenedor de la sección "Inicio" */
 .inicio .contenido-seccion {
     max-width: 1100px;
     margin: auto;
 }
 
-/* Estilos para la información en la sección "Inicio" */
 .inicio .info {
     width: fit-content;
     margin: auto;
@@ -108,13 +103,11 @@ body {
     text-align: center;
 }
 
-/* Estilos para el h2 dentro de la clase .info */
 .inicio .info h2 {
     font-size: 4rem;
     letter-spacing: 3px;
 }
 
-/* Estilos para el párrafo dentro de la clase .info */
 .inicio .info p {
     margin: 20px;
     color: #797e8e;
@@ -123,7 +116,6 @@ body {
     text-transform: uppercase;
 }
 
-/* Estilos para el botón de más información */
 .inicio .info .btn-mas {
     width: 50px;
     margin: auto;
@@ -138,7 +130,6 @@ body {
     text-decoration: none;
 }
 
-/* Estilos para las opciones en la sección inicio */
 .opciones {
     position: absolute;
     display: flex;
@@ -148,7 +139,6 @@ body {
     transform: translateX(-50%);
 }
 
-/* Estilos para cada opción dentro de la clase opciones */
 .inicio .opciones .opcion {
     border-top: 2px solid #797e8e;
     padding: 7px;
@@ -167,18 +157,15 @@ body {
     padding: 100px 20px;
 }
 
-/* Fila dentro de la sección nosotros */
 .nosotros .fila {
     display: flex;
     align-items: center;
 }
 
-/* Columnas dentro de la fila en la sección nosotros */
 .nosotros .fila .col {
     width: 50%;
 }
 
-/* Imagen dentro de la columna en la sección nosotros */
 .nosotros .fila .col img {
     width: 80%;
     display: block;
@@ -186,13 +173,11 @@ body {
     margin-bottom: 50px;
 }
 
-/* Contenedor del título dentro de la columna */
 .nosotros .fila .col .contenedor-titulo {
     display: flex;
     align-items: center;
 }
 
-/* Estilos para el número dentro del contenedor de título */
 .nosotros .fila .col .contenedor-titulo .numero {
     color: #ff1133;
     font-weight: bold;
@@ -200,7 +185,6 @@ body {
     font-size: 5rem;
 }
 
-/* Información adicional junto al número */
 .nosotros .fila .col .contenedor-titulo .info {
     margin-left: 30px;
 }
@@ -209,13 +193,11 @@ body {
 /* SERVICIOS */
 /* ********** */
 
-/* Contenedor principal de la sección Servicios */
 .servicios {
     color: #fff;
     position: relative;
 }
 
-/* Contenido de la sección Servicios */
 .servicios .contenido-seccion {
     background: linear-gradient(
         rgba(0, 14, 41, 0.6), 
@@ -227,7 +209,6 @@ body {
     padding: 0 20px;
 }
 
-/* Fila dentro del contenido de la sección Servicios */
 .servicios .contenido-seccion .fila {
     max-width: 1100px;
     margin: auto;
@@ -236,25 +217,21 @@ body {
     padding: 100px 0;
 }
 
-/* Columnas dentro de la fila */
 .servicios .contenido-seccion .fila .col {
     width: 50%;
 }
 
-/* Imágenes dentro de las columnas */
 .servicios .contenido-seccion .fila .col img {
     display: block;
     width: 50%;
     margin: auto;
 }
 
-/* Contenedor de título dentro de la columna */
 .servicios .contenido-seccion .fila .col .contenedor-titulo {
     display: flex;
     align-items: center;
 }
 
-/* Número dentro del contenedor de título */
 .servicios .contenido-seccion .fila .col .contenedor-titulo .numero {
     color: #ff1133;
     font-weight: bold;
@@ -262,7 +239,6 @@ body {
     font-size: 5rem;
 }
 
-/* Información dentro del contenedor de título */
 .servicios .contenido-seccion .fila .col .contenedor-titulo .info {
     margin-left: 30px;
 }
@@ -271,13 +247,11 @@ body {
 /* SERVICIOS */
 /* ********** */
 
-/* Contenedor principal de la sección Servicios */
 .servicios {
     color: #fff;
     position: relative;
 }
 
-/* Contenido de la sección Servicios */
 .servicios .contenido-seccion {
     background: linear-gradient(
         rgba(0, 14, 41, 0.6), 
@@ -289,7 +263,7 @@ body {
     padding: 0 20px;
 }
 
-/* Fila dentro del contenido de la sección Servicios */
+ 
 .servicios .contenido-seccion .fila {
     max-width: 1100px;
     margin: auto;
@@ -298,25 +272,25 @@ body {
     padding: 100px 0;
 }
 
-/* Columnas dentro de la fila */
+ 
 .servicios .contenido-seccion .fila .col {
     width: 50%;
 }
 
-/* Imágenes dentro de las columnas */
+ 
 .servicios .contenido-seccion .fila .col img {
     display: block;
     width: 50%;
     margin: auto;
 }
 
-/* Contenedor de título dentro de la columna */
+ 
 .servicios .contenido-seccion .fila .col .contenedor-titulo {
     display: flex;
     align-items: center;
 }
 
-/* Número dentro del contenedor de título */
+ 
 .servicios .contenido-seccion .fila .col .contenedor-titulo .numero {
     color: #ff1133;
     font-weight: bold;
@@ -324,18 +298,18 @@ body {
     font-size: 5rem;
 }
 
-/* Información dentro del contenedor de título */
+ 
 .servicios .contenido-seccion .fila .col .contenedor-titulo .info {
     margin-left: 30px;
 }
 
-/* Información de la sección Servicios */
+ 
 .servicios .info-servicios {
     max-width: 800px;
     margin: auto;
 }
 
-/* Estilos para la tabla dentro de info-servicios */
+ 
 .servicios .info-servicios table {
     text-align: center;
     background-color: #fff;
@@ -345,13 +319,13 @@ body {
     bottom: 100px;
 }
 
-/* Celdas de la tabla */
+ 
 .servicios .info-servicios table td {
     padding: 30px;
     border: 1px solid #dde1e9;
 }
 
-/* Iconos dentro de las celdas de la tabla */
+ 
 .servicios .info-servicios table td i {
     color: #ff1133;
     font-size: 2.5rem;
@@ -376,7 +350,7 @@ body {
 /* COMODIDADES */
 /* *********** */
 
-/* Contenedor principal de la sección Comodidades */
+ 
 .comodidades {
     max-width: 1100px;
     margin: auto;
@@ -384,18 +358,18 @@ body {
     padding: 100px 20px;
 }
 
-/* Fila dentro del contenido de la sección Comodidades */
+ 
 .comodidades .fila {
     display: flex;
     align-items: center;
 }
 
-/* Columnas dentro de la fila */
+ 
 .comodidades .fila .col {
     width: 50%;
 }
 
-/* Imágenes dentro de las columnas */
+ 
 .comodidades .fila .col img {
     width: 80%;
     display: block;
@@ -403,13 +377,13 @@ body {
     margin-bottom: 50px;
 }
 
-/* Contenedor de título dentro de la columna */
+ 
 .comodidades .fila .col .contenedor-titulo {
     display: flex;
     align-items: center;
 }
 
-/* Número dentro del contenedor de título */
+ 
 .comodidades .fila .col .contenedor-titulo .numero {
     color: #ff1133;
     font-weight: bold;
@@ -417,17 +391,17 @@ body {
     font-size: 5rem;
 }
 
-/* Información dentro del contenedor de título */
+ 
 .comodidades .fila .col .contenedor-titulo .info {
     margin-left: 30px;
 }
 
-/* Frase dentro del contenedor de título */
+ 
 .comodidades .fila .col .contenedor-titulo .info .frase {
     color: #ff1133;
 }
 
-/* Títulos dentro del contenedor de título */
+ 
 .comodidades .fila .col .contenedor-titulo .info h2 {
     font-size: 3rem;
 }
@@ -436,24 +410,24 @@ body {
 /* COMODIDADES */
 /* ********** */
 
-/* Párrafos dentro de columnas en la sección Comodidades */
+ 
 .comodidades .fila .col p {
     margin-bottom: 10px;
     line-height: 28px;
 }
 
-/* Párrafos especiales dentro de columnas en la sección Comodidades */
+ 
 .comodidades .fila .col .p-especial {
     font-weight: bold;
 }
 
-/* Listas dentro de columnas en la sección Comodidades */
+ 
 .comodidades .fila .col li {
     margin-bottom: 20px;
     color: #1f283e;
 }
 
-/* Espacios y color de los elementos de lista en la sección Comodidades */
+ 
 .comodidades .fila .col li span {
     font-weight: bold;
     color: #ff1133;
@@ -463,7 +437,7 @@ body {
 /* GALERIA */
 /* ********** */
 
-/* Contenedor principal de la sección Galería */
+ 
 .galeria {
     color: #fff;
     background: linear-gradient(
@@ -476,21 +450,21 @@ body {
     padding: 100px 0;
 }
 
-/* Contenido de la sección Galería */
+ 
 .galeria .contenido-seccion {
     max-width: 1100px;
     margin: auto;
     padding: 0 20px;
 }
 
-/* Contenedor de título en la sección Galería */
+ 
 .galeria .contenedor-titulo {
     display: flex;
     align-items: center;
     margin-bottom: 40px;
 }
 
-/* Número dentro del contenedor de título en la sección Galería */
+ 
 .galeria .contenedor-titulo .numero {
     color: #ff1133;
     font-weight: bold;
@@ -502,27 +476,27 @@ body {
 /* GALERIA */
 /* ********** */
 
-/* Información dentro del contenedor del título en la sección Galería */
+ 
 .galeria .contenedor-titulo .info {
     margin-left: 30px;
 }
 
-/* Frase dentro de la información del contenedor del título en la sección Galería */
+ 
 .galeria .contenedor-titulo .info .frase {
     color: #ff1133;
 }
 
-/* Títulos (h2) dentro de la información del contenedor del título en la sección Galería */
+ 
 .galeria .contenedor-titulo .info h2 {
     font-size: 3rem;
 }
 
-/* Fila dentro de la sección Galería */
+ 
 .galeria .fila {
     display: flex;
 }
 
-/* Imágenes dentro de columnas en la sección Galería */
+ 
 .galeria .fila .col img {
     width: 100%;
     display: block;
@@ -532,7 +506,7 @@ body {
 /* ENTRENADORES */
 /* ********** */
 
-/* Contenedor principal de la sección Entrenadores */
+ 
 .equipo {
     max-width: 1100px;
     margin: auto;
@@ -540,7 +514,7 @@ body {
     background-color: #dde1e9;
 }
 
-/* Contenedor de título en la sección Entrenadores */
+ 
 .equipo .contenedor-titulo {
     display: flex;
     align-items: center;
@@ -548,7 +522,7 @@ body {
     margin: auto;
 }
 
-/* Número dentro del contenedor de título en la sección Entrenadores */
+ 
 .equipo .contenedor-titulo .numero {
     color: #ff1133;
     font-weight: bold;
@@ -556,12 +530,12 @@ body {
     font-size: 5rem;
 }
 
-/* Información dentro del contenedor de título en la sección Entrenadores */
+ 
 .equipo .contenedor-titulo .info {
     margin-left: 30px;
 }
 
-/* Frase dentro de la información del contenedor del título en la sección Entrenadores */
+ 
 .equipo .contenedor-titulo .info .frase {
     color: #ff1133;
 }
@@ -570,31 +544,31 @@ body {
 /* ENTRENADORES */
 /* ********** */
 
-/* Información dentro del contenedor del título en la sección Entrenadores */
+ 
 .equipo .contenedor-titulo .info h2 {
     font-size: 3rem;
 }
 
-/* Fila en la sección Entrenadores */
+ 
 .equipo .fila {
     margin: 50px 0;
     display: flex;
     justify-content: space-around;
 }
 
-/* Columnas dentro de la fila en la sección Entrenadores */
+ 
 .equipo .fila .col {
     width: 25%;
 }
 
-/* Imágenes dentro de las columnas en la sección Entrenadores */
+ 
 .equipo .fila .col img {
     max-height: 400px;
     display: block;
     margin: auto;
 }
 
-/* Información dentro de la fila en la sección Entrenadores */
+ 
 .equipo .fila .info {
     border: 5px solid #1f283e;
     text-align: center;
@@ -604,12 +578,12 @@ body {
     color: #fff;
 }
 
-/* Párrafos dentro de la información en la sección Entrenadores */
+ 
 .equipo .fila .info p {
     margin: 20px 0;
 }
 
-/* Enlaces dentro de la información en la sección Entrenadores */
+ 
 .equipo .fila .info a {
     color: #fff;
     text-decoration: none;
@@ -618,9 +592,9 @@ body {
     font-size: 20px;
 }
 
-/* ********** */
-/* CONTACTO */
-/* ********** */
+ 
+ 
+ 
 
 .contacto {
     color: #fff;
@@ -630,13 +604,13 @@ body {
     padding: 100px 20px;
 }
 
-/* Contenido dentro de la sección de contacto */
+
 .contacto .contenido-seccion {
     max-width: 800px;
     margin: auto;
 }
 
-/* Contenedor del título en la sección de contacto */
+
 .contacto .contenedor-titulo {
     display: flex;
     align-items: center;
@@ -644,7 +618,7 @@ body {
     margin: auto;
 }
 
-/* Número dentro del contenedor del título */
+
 .contacto .contenedor-titulo .numero {
     color: #ff1133;
     font-weight: bold;
@@ -652,34 +626,34 @@ body {
     font-size: 5rem;
 }
 
-/* Información dentro del contenedor del título */
+
 .contacto .contenedor-titulo .info {
     margin-left: 30px;
 }
 
-/* Frase dentro de la información en el contenedor del título */
+
 .contacto .contenedor-titulo .info .frase {
     color: #ff1133;
 }
 
-/* Títulos h2 dentro de la información en el contenedor del título */
+
 .contacto .contenedor-titulo .info h2 {
     font-size: 3rem;
 }
 
-/* Fila en la sección de contacto */
+
 .contacto .fila {
     display: flex;
     margin-top: 50px;
     justify-content: space-between;
 }
 
-/* Columnas dentro de la fila en la sección de contacto */
+
 .contacto .fila .col {
     width: 48%;
 }
 
-/* Estilo para los campos de entrada en la sección de contacto */
+
 .contacto .fila input {
     width: 100%;
     padding: 15px;
@@ -693,7 +667,7 @@ body {
 /* CONTACTO */
 /* ********** */
 
-/* Estilo general para la sección de contacto */
+
 .contacto {
     color: #fff;
     background: linear-gradient(rgba(0, 14, 41, 0.6), rgba(0, 7, 78, 0.7)), url(img/fondo.jpg);
@@ -702,13 +676,13 @@ body {
     padding: 100px 20px;
 }
 
-/* Contenido dentro de la sección de contacto */
+
 .contacto .contenido-seccion {
     max-width: 800px;
     margin: auto;
 }
 
-/* Contenedor del título en la sección de contacto */
+
 .contacto .contenedor-titulo {
     display: flex;
     align-items: center;
@@ -716,7 +690,7 @@ body {
     margin: auto;
 }
 
-/* Número dentro del contenedor del título */
+
 .contacto .contenedor-titulo .numero {
     color: #ff1133;
     font-weight: bold;
@@ -724,34 +698,34 @@ body {
     font-size: 5rem;
 }
 
-/* Información dentro del contenedor del título */
+
 .contacto .contenedor-titulo .info {
     margin-left: 30px;
 }
 
-/* Frase dentro de la información en el contenedor del título */
+
 .contacto .contenedor-titulo .info .frase {
     color: #ff1133;
 }
 
-/* Títulos h2 dentro de la información en el contenedor del título */
+
 .contacto .contenedor-titulo .info h2 {
     font-size: 3rem;
 }
 
-/* Fila en la sección de contacto */
+
 .contacto .fila {
     display: flex;
     margin-top: 50px;
     justify-content: space-between;
 }
 
-/* Columnas dentro de la fila en la sección de contacto */
+
 .contacto .fila .col {
     width: 48%;
 }
 
-/* Estilo para los campos de entrada en la sección de contacto */
+
 .contacto .fila input {
     width: 100%;
     padding: 15px;
@@ -761,7 +735,7 @@ body {
     outline: none;
 }
 
-/* Estilo para el área de texto en la sección de contacto */
+
 .contacto textarea {
     display: block;
     margin-top: 20px;
@@ -772,7 +746,7 @@ body {
     height: 200px;
 }
 
-/* Estilo para el botón en la sección de contacto */
+
 .contacto button {
     display: block;
     width: fit-content;
@@ -787,7 +761,7 @@ body {
     cursor: pointer;
 }
 
-/* Estilo para la fila de datos en la sección de contacto */
+
 .contacto .fila-datos {
     display: flex;
     justify-content: space-around;
@@ -796,7 +770,7 @@ body {
     text-align: center;
 }
 
-/* Estilo para iconos en la sección de contacto */
+
 .contacto i {
     color: #ff1133;
     display: inline-block;
@@ -807,13 +781,13 @@ body {
 /* FOOTER */
 /* *********** */
 
-/* Estilo general para el footer */
+
 footer {
     background-color: #151623;
     padding: 30px 0;
 }
 
-/* Contenido dentro del footer */
+
 footer .info {
     display: flex;
     max-width: 1100px;
@@ -822,12 +796,12 @@ footer .info {
     padding: 0 20px;
 }
 
-/* Párrafos dentro del footer */
+
 footer .info p {
     color: #797e8e;
 }
 
-/* Enlaces dentro del footer */
+
 footer .info a {
     text-decoration: none;
     color: #797e8e;
@@ -839,27 +813,27 @@ footer .info a {
 /* RESPONSIVE */
 /* *********** */
 
-/* Estilos para pantallas con un ancho máximo de 900px */
+
 @media only screen and (max-width: 900px) {
     
-    /* Ocultar la navegación principal en pantallas pequeñas */
+    
     header nav {
         position: initial;
         display: none;
         transform: translate(0);
     }
     
-    /* Ocultar las redes sociales en pantallas pequeñas */
+    
     header .redes {
         display: none;
     }
     
-    /* Mostrar la navegación responsive en pantallas pequeñas */
+    
     .nav-responsive {
         display: block;
     }
     
-    /* Estilos para la navegación responsive */
+    
     nav.responsive {
         display: flex;
         flex-direction: column;
@@ -873,7 +847,7 @@ footer .info a {
         z-index: 99;
     }
     
-    /* Estilo para los enlaces en la navegación responsive */
+    
     nav.responsive a {
         display: block;
         width: fit-content;
@@ -881,12 +855,12 @@ footer .info a {
         font-size: 30px;
     }
     
-    /* Ocultar las opciones en la sección de inicio en pantallas pequeñas */
+    
     .inicio .opciones {
         display: none;
     }
     
-    /* Ajustar la disposición en la sección de nosotros */
+    
     .nosotros .fila {
         display: block;
     }
@@ -902,7 +876,7 @@ footer .info a {
         margin: auto;
     }
     
-    /* Ajustar el diseño de los servicios */
+    
     .servicios .contenido-seccion .fila {
         display: block;
     }
@@ -912,7 +886,7 @@ footer .info a {
     }
 
     
-    /* Ajustar el diseño de las comodidades */
+    
     .comodidades .fila {
         display: block;
     }
@@ -925,7 +899,7 @@ footer .info a {
         max-width: 200px;
     }
     
-    /* Ajustar el diseño del equipo */
+    
     .equipo .fila {
         display: block;
     }
@@ -944,7 +918,7 @@ footer .info a {
         margin: auto;
     }
     
-    /* Ajustar el diseño del contacto */
+    
     .contacto .fila {
         display: block;
     }
@@ -962,7 +936,6 @@ footer .info a {
         margin-bottom: 20px;
     }
     
-    /* Ajustar el diseño del footer */
     footer .info {
         display: block;
         text-align: center;
