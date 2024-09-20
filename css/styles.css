@@ -1,5 +1,3 @@
-
-
 body{
     color: #ff1133;
     background-color: #ff1133;
@@ -358,4 +356,619 @@ body {
     color: #ff1133;
     font-size: 2.5rem;
     margin-bottom: 20px;
+}
+
+/* ********** */
+/* SERVICIOS */
+/* ********** */
+
+/* Información de la sección Servicios */
+.servicios .info-servicios h3 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.servicios .info-servicios p {
+    line-height: 30px;
+}
+
+/* *********** */
+/* COMODIDADES */
+/* *********** */
+
+/* Contenedor principal de la sección Comodidades */
+.comodidades {
+    max-width: 1100px;
+    margin: auto;
+    background-color: #dde1e9;
+    padding: 100px 20px;
+}
+
+/* Fila dentro del contenido de la sección Comodidades */
+.comodidades .fila {
+    display: flex;
+    align-items: center;
+}
+
+/* Columnas dentro de la fila */
+.comodidades .fila .col {
+    width: 50%;
+}
+
+/* Imágenes dentro de las columnas */
+.comodidades .fila .col img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+/* Contenedor de título dentro de la columna */
+.comodidades .fila .col .contenedor-titulo {
+    display: flex;
+    align-items: center;
+}
+
+/* Número dentro del contenedor de título */
+.comodidades .fila .col .contenedor-titulo .numero {
+    color: #ff1133;
+    font-weight: bold;
+    display: block;
+    font-size: 5rem;
+}
+
+/* Información dentro del contenedor de título */
+.comodidades .fila .col .contenedor-titulo .info {
+    margin-left: 30px;
+}
+
+/* Frase dentro del contenedor de título */
+.comodidades .fila .col .contenedor-titulo .info .frase {
+    color: #ff1133;
+}
+
+/* Títulos dentro del contenedor de título */
+.comodidades .fila .col .contenedor-titulo .info h2 {
+    font-size: 3rem;
+}
+
+/* ********** */
+/* COMODIDADES */
+/* ********** */
+
+/* Párrafos dentro de columnas en la sección Comodidades */
+.comodidades .fila .col p {
+    margin-bottom: 10px;
+    line-height: 28px;
+}
+
+/* Párrafos especiales dentro de columnas en la sección Comodidades */
+.comodidades .fila .col .p-especial {
+    font-weight: bold;
+}
+
+/* Listas dentro de columnas en la sección Comodidades */
+.comodidades .fila .col li {
+    margin-bottom: 20px;
+    color: #1f283e;
+}
+
+/* Espacios y color de los elementos de lista en la sección Comodidades */
+.comodidades .fila .col li span {
+    font-weight: bold;
+    color: #ff1133;
+}
+
+/* ********** */
+/* GALERIA */
+/* ********** */
+
+/* Contenedor principal de la sección Galería */
+.galeria {
+    color: #fff;
+    background: linear-gradient(
+        rgba(0, 14, 41, 0.6),
+        rgba(0, 7, 78, 0.7)
+    ),
+    url(img/fondo-galeria.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0;
+}
+
+/* Contenido de la sección Galería */
+.galeria .contenido-seccion {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Contenedor de título en la sección Galería */
+.galeria .contenedor-titulo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+/* Número dentro del contenedor de título en la sección Galería */
+.galeria .contenedor-titulo .numero {
+    color: #ff1133;
+    font-weight: bold;
+    display: block;
+    font-size: 5rem;
+}
+
+/* ********** */
+/* GALERIA */
+/* ********** */
+
+/* Información dentro del contenedor del título en la sección Galería */
+.galeria .contenedor-titulo .info {
+    margin-left: 30px;
+}
+
+/* Frase dentro de la información del contenedor del título en la sección Galería */
+.galeria .contenedor-titulo .info .frase {
+    color: #ff1133;
+}
+
+/* Títulos (h2) dentro de la información del contenedor del título en la sección Galería */
+.galeria .contenedor-titulo .info h2 {
+    font-size: 3rem;
+}
+
+/* Fila dentro de la sección Galería */
+.galeria .fila {
+    display: flex;
+}
+
+/* Imágenes dentro de columnas en la sección Galería */
+.galeria .fila .col img {
+    width: 100%;
+    display: block;
+}
+
+/* ********** */
+/* ENTRENADORES */
+/* ********** */
+
+/* Contenedor principal de la sección Entrenadores */
+.equipo {
+    max-width: 1100px;
+    margin: auto;
+    padding-top: 95px;
+    background-color: #dde1e9;
+}
+
+/* Contenedor de título en la sección Entrenadores */
+.equipo .contenedor-titulo {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+}
+
+/* Número dentro del contenedor de título en la sección Entrenadores */
+.equipo .contenedor-titulo .numero {
+    color: #ff1133;
+    font-weight: bold;
+    display: block;
+    font-size: 5rem;
+}
+
+/* Información dentro del contenedor de título en la sección Entrenadores */
+.equipo .contenedor-titulo .info {
+    margin-left: 30px;
+}
+
+/* Frase dentro de la información del contenedor del título en la sección Entrenadores */
+.equipo .contenedor-titulo .info .frase {
+    color: #ff1133;
+}
+
+/* ********** */
+/* ENTRENADORES */
+/* ********** */
+
+/* Información dentro del contenedor del título en la sección Entrenadores */
+.equipo .contenedor-titulo .info h2 {
+    font-size: 3rem;
+}
+
+/* Fila en la sección Entrenadores */
+.equipo .fila {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Columnas dentro de la fila en la sección Entrenadores */
+.equipo .fila .col {
+    width: 25%;
+}
+
+/* Imágenes dentro de las columnas en la sección Entrenadores */
+.equipo .fila .col img {
+    max-height: 400px;
+    display: block;
+    margin: auto;
+}
+
+/* Información dentro de la fila en la sección Entrenadores */
+.equipo .fila .info {
+    border: 5px solid #1f283e;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    background: linear-gradient(#ff1133, #9a0e23);
+    color: #fff;
+}
+
+/* Párrafos dentro de la información en la sección Entrenadores */
+.equipo .fila .info p {
+    margin: 20px 0;
+}
+
+/* Enlaces dentro de la información en la sección Entrenadores */
+.equipo .fila .info a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+/* ********** */
+/* CONTACTO */
+/* ********** */
+
+.contacto {
+    color: #fff;
+    background: linear-gradient(rgba(0, 14, 41, 0.6), rgba(0, 7, 78, 0.7)), url(img/fondo.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 20px;
+}
+
+/* Contenido dentro de la sección de contacto */
+.contacto .contenido-seccion {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Contenedor del título en la sección de contacto */
+.contacto .contenedor-titulo {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+}
+
+/* Número dentro del contenedor del título */
+.contacto .contenedor-titulo .numero {
+    color: #ff1133;
+    font-weight: bold;
+    display: block;
+    font-size: 5rem;
+}
+
+/* Información dentro del contenedor del título */
+.contacto .contenedor-titulo .info {
+    margin-left: 30px;
+}
+
+/* Frase dentro de la información en el contenedor del título */
+.contacto .contenedor-titulo .info .frase {
+    color: #ff1133;
+}
+
+/* Títulos h2 dentro de la información en el contenedor del título */
+.contacto .contenedor-titulo .info h2 {
+    font-size: 3rem;
+}
+
+/* Fila en la sección de contacto */
+.contacto .fila {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+/* Columnas dentro de la fila en la sección de contacto */
+.contacto .fila .col {
+    width: 48%;
+}
+
+/* Estilo para los campos de entrada en la sección de contacto */
+.contacto .fila input {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+}
+
+/* ********** */
+/* CONTACTO */
+/* ********** */
+
+/* Estilo general para la sección de contacto */
+.contacto {
+    color: #fff;
+    background: linear-gradient(rgba(0, 14, 41, 0.6), rgba(0, 7, 78, 0.7)), url(img/fondo.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 20px;
+}
+
+/* Contenido dentro de la sección de contacto */
+.contacto .contenido-seccion {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Contenedor del título en la sección de contacto */
+.contacto .contenedor-titulo {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+}
+
+/* Número dentro del contenedor del título */
+.contacto .contenedor-titulo .numero {
+    color: #ff1133;
+    font-weight: bold;
+    display: block;
+    font-size: 5rem;
+}
+
+/* Información dentro del contenedor del título */
+.contacto .contenedor-titulo .info {
+    margin-left: 30px;
+}
+
+/* Frase dentro de la información en el contenedor del título */
+.contacto .contenedor-titulo .info .frase {
+    color: #ff1133;
+}
+
+/* Títulos h2 dentro de la información en el contenedor del título */
+.contacto .contenedor-titulo .info h2 {
+    font-size: 3rem;
+}
+
+/* Fila en la sección de contacto */
+.contacto .fila {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+/* Columnas dentro de la fila en la sección de contacto */
+.contacto .fila .col {
+    width: 48%;
+}
+
+/* Estilo para los campos de entrada en la sección de contacto */
+.contacto .fila input {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+}
+
+/* Estilo para el área de texto en la sección de contacto */
+.contacto textarea {
+    display: block;
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 20px;
+    outline: none;
+    width: 100%;
+    height: 200px;
+}
+
+/* Estilo para el botón en la sección de contacto */
+.contacto button {
+    display: block;
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+    border: none;
+    background-color: #ff1133;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para la fila de datos en la sección de contacto */
+.contacto .fila-datos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Estilo para iconos en la sección de contacto */
+.contacto i {
+    color: #ff1133;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* *********** */
+/* FOOTER */
+/* *********** */
+
+/* Estilo general para el footer */
+footer {
+    background-color: #151623;
+    padding: 30px 0;
+}
+
+/* Contenido dentro del footer */
+footer .info {
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+/* Párrafos dentro del footer */
+footer .info p {
+    color: #797e8e;
+}
+
+/* Enlaces dentro del footer */
+footer .info a {
+    text-decoration: none;
+    color: #797e8e;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+/* *********** */
+/* RESPONSIVE */
+/* *********** */
+
+/* Estilos para pantallas con un ancho máximo de 900px */
+@media only screen and (max-width: 900px) {
+    
+    /* Ocultar la navegación principal en pantallas pequeñas */
+    header nav {
+        position: initial;
+        display: none;
+        transform: translate(0);
+    }
+    
+    /* Ocultar las redes sociales en pantallas pequeñas */
+    header .redes {
+        display: none;
+    }
+    
+    /* Mostrar la navegación responsive en pantallas pequeñas */
+    .nav-responsive {
+        display: block;
+    }
+    
+    /* Estilos para la navegación responsive */
+    nav.responsive {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #151623;
+        z-index: 99;
+    }
+    
+    /* Estilo para los enlaces en la navegación responsive */
+    nav.responsive a {
+        display: block;
+        width: fit-content;
+        margin: 10px auto;
+        font-size: 30px;
+    }
+    
+    /* Ocultar las opciones en la sección de inicio en pantallas pequeñas */
+    .inicio .opciones {
+        display: none;
+    }
+    
+    /* Ajustar la disposición en la sección de nosotros */
+    .nosotros .fila {
+        display: block;
+    }
+    
+    .nosotros .fila .col {
+        width: 100%;
+        margin: auto;
+    }
+    
+    .nosotros .fila .col img {
+        max-width: 200px;
+        display: block;
+        margin: auto;
+    }
+    
+    /* Ajustar el diseño de los servicios */
+    .servicios .contenido-seccion .fila {
+        display: block;
+    }
+    
+    .servicios .contenido-seccion .fila .col {
+        width: 100%;
+    }
+
+    
+    /* Ajustar el diseño de las comodidades */
+    .comodidades .fila {
+        display: block;
+    }
+    
+    .comodidades .fila .col {
+        width: 100%;
+    }
+    
+    .comodidades .fila .col img {
+        max-width: 200px;
+    }
+    
+    /* Ajustar el diseño del equipo */
+    .equipo .fila {
+        display: block;
+    }
+    
+    .equipo .fila .col {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .equipo .fila .col img {
+        max-height: 200px;
+    }
+    
+    .equipo .fila .info {
+        max-width: 250px;
+        margin: auto;
+    }
+    
+    /* Ajustar el diseño del contacto */
+    .contacto .fila {
+        display: block;
+    }
+    
+    .contacto .fila .col {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .contacto .fila-datos {
+        display: block;
+    }
+    
+    .contacto .fila-datos .col {
+        margin-bottom: 20px;
+    }
+    
+    /* Ajustar el diseño del footer */
+    footer .info {
+        display: block;
+        text-align: center;
+    }
+    
+    footer .info p {
+        margin-bottom: 10px;
+    }
 }
