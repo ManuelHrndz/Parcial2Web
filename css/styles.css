@@ -1,0 +1,361 @@
+
+
+body{
+    color: #ff1133;
+    background-color: #ff1133;
+    
+    }
+
+
+/* Importar fuente Barlow */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #dde1e9;
+}
+
+.contenedor-header {
+    width: 100%;
+    position: fixed;
+    border-bottom: 1px solid #1f283e;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 99;
+    padding: 0 20px;
+}
+
+.contenedor-header header {
+    max-width: 1100px;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    color: #fff;
+}
+
+.txtRojo {
+    color: #ff1133;
+}
+
+.contenedor-header header nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.contenedor-header header nav a:hover {
+    color: #ff1133;
+}
+
+/* Estilos para los enlaces de redes sociales en el encabezado */
+.contenedor-header header .redes a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 8px;
+}
+
+/* Efecto hover en los enlaces de redes sociales */
+.contenedor-header header .redes a:hover {
+    color: #ff1133;
+}
+
+/* Estilos para el ícono de menú responsive */
+.nav-responsive {
+    display: none;
+    font-size: 25px;
+}
+
+/* *********** */
+/* SECCIÓN INICIO */
+/* *********** */
+
+.inicio {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 1, 3, 0.5), rgba(0, 0, 0, .7)), url('img/fondo.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    position: relative;
+}
+
+/* Contenedor de la sección "Inicio" */
+.inicio .contenido-seccion {
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Estilos para la información en la sección "Inicio" */
+.inicio .info {
+    width: fit-content;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Estilos para el h2 dentro de la clase .info */
+.inicio .info h2 {
+    font-size: 4rem;
+    letter-spacing: 3px;
+}
+
+/* Estilos para el párrafo dentro de la clase .info */
+.inicio .info p {
+    margin: 20px;
+    color: #797e8e;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/* Estilos para el botón de más información */
+.inicio .info .btn-mas {
+    width: 50px;
+    margin: auto;
+    height: 50px;
+    border: 2px solid #ff1133;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #ff1133;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+/* Estilos para las opciones en la sección inicio */
+.opciones {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Estilos para cada opción dentro de la clase opciones */
+.inicio .opciones .opcion {
+    border-top: 2px solid #797e8e;
+    padding: 7px;
+    color: #797e8e;
+    margin: 0 20px;
+}
+
+/* *********** */
+/* SECCIÓN NOSOTROS */
+/* *********** */
+.nosotros {
+    max-width: 1100px;
+    margin: auto;
+    height: 100vh;
+    background-color: #dde1e9;
+    padding: 100px 20px;
+}
+
+/* Fila dentro de la sección nosotros */
+.nosotros .fila {
+    display: flex;
+    align-items: center;
+}
+
+/* Columnas dentro de la fila en la sección nosotros */
+.nosotros .fila .col {
+    width: 50%;
+}
+
+/* Imagen dentro de la columna en la sección nosotros */
+.nosotros .fila .col img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+/* Contenedor del título dentro de la columna */
+.nosotros .fila .col .contenedor-titulo {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para el número dentro del contenedor de título */
+.nosotros .fila .col .contenedor-titulo .numero {
+    color: #ff1133;
+    font-weight: bold;
+    display: block;
+    font-size: 5rem;
+}
+
+/* Información adicional junto al número */
+.nosotros .fila .col .contenedor-titulo .info {
+    margin-left: 30px;
+}
+
+/* ********** */
+/* SERVICIOS */
+/* ********** */
+
+/* Contenedor principal de la sección Servicios */
+.servicios {
+    color: #fff;
+    position: relative;
+}
+
+/* Contenido de la sección Servicios */
+.servicios .contenido-seccion {
+    background: linear-gradient(
+        rgba(0, 14, 41, 0.6), 
+        rgba(0, 7, 78, 0.7)
+    ), url(img/fondo-servicios.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Fila dentro del contenido de la sección Servicios */
+.servicios .contenido-seccion .fila {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+}
+
+/* Columnas dentro de la fila */
+.servicios .contenido-seccion .fila .col {
+    width: 50%;
+}
+
+/* Imágenes dentro de las columnas */
+.servicios .contenido-seccion .fila .col img {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+/* Contenedor de título dentro de la columna */
+.servicios .contenido-seccion .fila .col .contenedor-titulo {
+    display: flex;
+    align-items: center;
+}
+
+/* Número dentro del contenedor de título */
+.servicios .contenido-seccion .fila .col .contenedor-titulo .numero {
+    color: #ff1133;
+    font-weight: bold;
+    display: block;
+    font-size: 5rem;
+}
+
+/* Información dentro del contenedor de título */
+.servicios .contenido-seccion .fila .col .contenedor-titulo .info {
+    margin-left: 30px;
+}
+
+/* ********** */
+/* SERVICIOS */
+/* ********** */
+
+/* Contenedor principal de la sección Servicios */
+.servicios {
+    color: #fff;
+    position: relative;
+}
+
+/* Contenido de la sección Servicios */
+.servicios .contenido-seccion {
+    background: linear-gradient(
+        rgba(0, 14, 41, 0.6), 
+        rgba(0, 7, 78, 0.7)
+    ), url(img/fondo-servicios.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Fila dentro del contenido de la sección Servicios */
+.servicios .contenido-seccion .fila {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+}
+
+/* Columnas dentro de la fila */
+.servicios .contenido-seccion .fila .col {
+    width: 50%;
+}
+
+/* Imágenes dentro de las columnas */
+.servicios .contenido-seccion .fila .col img {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+/* Contenedor de título dentro de la columna */
+.servicios .contenido-seccion .fila .col .contenedor-titulo {
+    display: flex;
+    align-items: center;
+}
+
+/* Número dentro del contenedor de título */
+.servicios .contenido-seccion .fila .col .contenedor-titulo .numero {
+    color: #ff1133;
+    font-weight: bold;
+    display: block;
+    font-size: 5rem;
+}
+
+/* Información dentro del contenedor de título */
+.servicios .contenido-seccion .fila .col .contenedor-titulo .info {
+    margin-left: 30px;
+}
+
+/* Información de la sección Servicios */
+.servicios .info-servicios {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Estilos para la tabla dentro de info-servicios */
+.servicios .info-servicios table {
+    text-align: center;
+    background-color: #fff;
+    color: #1f283e;
+    border-collapse: collapse;
+    position: relative;
+    bottom: 100px;
+}
+
+/* Celdas de la tabla */
+.servicios .info-servicios table td {
+    padding: 30px;
+    border: 1px solid #dde1e9;
+}
+
+/* Iconos dentro de las celdas de la tabla */
+.servicios .info-servicios table td i {
+    color: #ff1133;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
